@@ -1,0 +1,156 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+
+
+}
+body{
+font-family: 'Ubuntu', sans-serif;
+}
+.h1{
+
+font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* navigation bar */
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+ /*title image */
+ .title-image{
+   position:absolute;
+   right: 30%;
+   width:60%;
+   transform: rotate(25deg);
+ }
+
+
+ /* features */
+ #features{
+   position: relative;
+   background-color: #fff;
+  padding: 7% 15%;
+ }
+.h3{
+  font-family: 'Montserrat', sans-serif;
+  font-style:1.5rem ;
+}
+.row2{
+  padding-top: 10%;
+  text-align: center;
+}
+.tick{
+    color: #ef8172;
+    font-size: 5rem;
+    padding-bottom: 1rem;
+
+    }
+.tick:hover{
+  color:#ff4c68;
+}
+.p2{
+  color:#8f8f8f;
+}
+/* testimonial */
+
+#testimonials{
+
+   text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.dog{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press section */
+#press{
+  background-color:  #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+/* cta */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  color:#fff;
+
+}
+.cta-h3{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    margin-bottom: 4%;
+}
+
+
+
+/* fotter */
+#footer{
+  background-color:  #fff;
+  text-align: center;
+  padding-top: 8%  ;
+  padding-bottom: 8%;
+}
+@media (max-width:990px) {
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+.cta-button{
+  margin: 10px 15px 10px;
+}
+.fotter-icon{
+  margin: 1% 1% 1%;
+  font-size: 1rem;
+}
+.fotter-p{
+  font-size: 1rem;
+  color:grey;
+}
